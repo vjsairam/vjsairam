@@ -6,8 +6,7 @@ I design and optimize production infrastructure for AI workloads —
 with a focus on inference economics, Kubernetes, reliability, security,
 and cloud/platform engineering.
 
-Currently building **Prospera Enterprises**, focused on helping engineering
-teams answer a practical question:
+Currently focused on helping engineering teams answer a practical question:
 
 > What is the lowest-cost AI inference architecture that still meets
 > the required quality, latency, reliability, security and availability?
