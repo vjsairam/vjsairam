@@ -1,50 +1,71 @@
-# Hi, I'm Sai Ram 👋
+# Sai Ram
 
-**Senior Platform / DevOps Engineer** — Kubernetes · AWS · Terraform · SRE · FinOps · AI infrastructure
+**AI Infrastructure & Platform Architect**
 
-I build and run production cloud platforms: Kubernetes on EKS/GKE/AKS, Terraform automation, CI/CD, observability, DR, and cost governance. 14+ years across AWS, GCP, Azure, and OCI — from regulated banking and payment workloads to gaming platforms serving 1M+ concurrent players.
+I design and optimize production infrastructure for AI workloads —
+with a focus on inference economics, Kubernetes, reliability, security,
+and cloud/platform engineering.
 
-**Current focus:** AI inference infrastructure and economics — GPU platforms on Kubernetes, vLLM serving, and the real cost math behind managed-API vs self-hosted LLM architectures.
+Currently building **Prospera Enterprises**, focused on helping engineering
+teams answer a practical question:
 
-## 🔭 Featured work
+> What is the lowest-cost AI inference architecture that still meets
+> the required quality, latency, reliability, security and availability?
 
-| Project | What it is |
-|---|---|
-| [ai-inference-cost-optimization](https://github.com/vjsairam/ai-inference-cost-optimization) | Evidence-driven comparison of managed API vs self-hosted vLLM vs hybrid LLM serving on EKS — reproducible benchmarks, quality-adjusted cost per task, break-even modeling |
-| [terraform-mcp-analyzer](https://github.com/vjsairam/terraform-mcp-analyzer) | Automated Terraform upgrade intelligence via Model Context Protocol |
-| [genai-observability-suite](https://github.com/vjsairam/genai-observability-suite) | OpenTelemetry dashboards and observability patterns for LLM workloads |
-| [cloud-finops-toolkit](https://github.com/vjsairam/cloud-finops-toolkit) | Cost governance and anomaly-detection tooling for cloud spend |
-| [mlops-pipeline-starter](https://github.com/vjsairam/mlops-pipeline-starter) | CI/CD pipeline for ML workloads with monitoring built in |
-| [aws-assessment](https://github.com/vjsairam/aws-assessment) | Multi-region AWS reference infrastructure with Terraform |
+## Featured engineering
 
-## 🛠 Stack
+### AI Inference Cost Optimization
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?logo=argo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Istio](https://img.shields.io/badge/Istio-466BB0?logo=istio&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-serving-1f6feb)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?logo=opentelemetry&logoColor=white)
+A reproducible production-style benchmark comparing:
 
-**Also:** Karpenter · Cilium · Crossplane · Kyverno/OPA · Vault · Datadog · ELK · GitLab CI · Ansible · Kubeflow
+- managed model APIs
+- private/self-hosted inference with vLLM on Kubernetes
+- policy-driven hybrid inference
 
-## 📜 Certifications
+The project measures:
 
-- Certified Kubernetes Security Specialist (CKS)
-- Certified Kubernetes Administrator (CKA)
-- AWS Solutions Architect — Associate · AWS Developer — Associate
-- Microsoft Azure Administrator Associate
-- HashiCorp Terraform Associate
+`cost / correct task` · `TTFT` · `p95 latency` · `throughput`
+· `GPU utilization` · `quality` · `failure behavior`
 
-## 📫 Contact
+**→ [View the project](https://github.com/vjsairam/ai-inference-cost-optimization)**
 
-📧 vj_sairam@yahoo.com
+_Status: actively building and benchmarking._
 
 ---
-*Independent cloud platform consultant — open to platform engineering, SRE, and AI-infrastructure work.*
+
+## What I work on
+
+**AI Infrastructure**
+- Production inference architecture
+- GPU / accelerator infrastructure
+- vLLM and model serving
+- Inference economics and AI FinOps
+- Hybrid managed + private AI
+
+**Platform Engineering**
+- Kubernetes
+- AWS / cloud infrastructure
+- Terraform / Infrastructure as Code
+- Observability and reliability
+- Security and regulated infrastructure
+
+## Current focus
+
+Building repeatable ways to evaluate:
+
+**Managed API vs Private Inference vs Hybrid Architecture**
+
+based on measurable business outcomes rather than technology preference.
+
+---
+
+## Background
+
+15+ years across infrastructure, cloud, Kubernetes and platform engineering,
+including large-scale production systems and regulated environments.
+
+Kubernetes-certified (CKA · CKS) with deep production platform experience.
+
+My current work sits at the intersection of:
+
+**AI workloads × cloud infrastructure × Kubernetes × economics × reliability**
