@@ -2,9 +2,9 @@
 
 **AI infrastructure and platform architect**
 
-I help engineering teams work out what each AI workload costs per useful result, whether
-it's worth that, and the cheapest setup that meets their quality and latency targets: a
-managed model API, their own GPUs, or a mix.
+I help engineering teams measure what each AI workload costs per successful task and
+compare the options against their quality and latency targets: a managed model API, their
+own GPUs, or a mix.
 
 **Work with me:** a [five-day AI workload cost assessment](https://vjsairam.com/assessment/)
 on one workload, ending in a written recommendation.
@@ -19,7 +19,8 @@ task sets. Results from the August 2026 runs (costs are inference-service cost p
 task, not full platform TCO):
 
 - **Classification:** the private 7B model was more accurate (94.3% vs 77.8% correct) and about
-  40 times cheaper per correct answer ($0.0000505 vs $0.00214).
+  40 times cheaper per correct answer ($0.0000505 vs $0.00214). The managed run used a 64-token
+  answer cap, and GPU cost covers only the benchmark request span.
 - **Structured extraction:** the managed premium model won on quality (99.9% vs 40.7%), so the
   quality requirement decides, not the token price.
 - **Hybrid routing** priced the blend in between: 88.9% correct at $0.00071 per correct task
