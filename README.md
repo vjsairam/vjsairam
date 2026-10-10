@@ -2,9 +2,13 @@
 
 **AI infrastructure and platform architect**
 
-I help engineering teams run AI workloads in production on infrastructure they control:
-GPU and Kubernetes model serving, private or hybrid setups, reliability, and what it all
-costs per unit of useful work.
+I help engineering teams work out what each AI workload costs per useful result, whether
+it's worth that, and the cheapest setup that meets their quality and latency targets: a
+managed model API, their own GPUs, or a mix.
+
+**Work with me:** a [five-day AI workload cost assessment](https://vjsairam.com/assessment/)
+on one workload, ending in a written recommendation.
+<!-- TODO: add a LinkedIn link next to the contact line, and a profile photo in GitHub settings. -->
 
 ## Measured work
 
@@ -29,6 +33,12 @@ task, not full platform TCO):
 ### [Terraform MCP analyzer](https://github.com/vjsairam/terraform-mcp-analyzer)
 
 Terraform upgrade analysis exposed as an MCP server, written in Go.
+
+## Open source
+
+- [KEDA](https://github.com/kedacore/keda/pulls?q=is%3Apr+author%3Avjsairam+is%3Amerged): merged
+  removals of deprecated scaler settings for the 2.22 release (GCP Pub/Sub, Huawei Cloudeye), with
+  the matching [docs changes](https://github.com/kedacore/keda-docs/pulls?q=is%3Apr+author%3Avjsairam+is%3Amerged).
 
 ## What I work on
 
