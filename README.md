@@ -30,11 +30,6 @@ task, not full platform TCO):
 
 Terraform upgrade analysis exposed as an MCP server, written in Go.
 
-### [Racing telemetry audit](https://github.com/vjsairam/racemake-pitstop)
-
-Engagement-style audit and hardening case study for a Node.js, MongoDB and ClickHouse
-telemetry stack.
-
 ## What I work on
 
 - Inference architecture: managed, private or hybrid, decided on cost per correct result
