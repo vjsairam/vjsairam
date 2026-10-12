@@ -2,9 +2,12 @@
 
 **AI infrastructure and platform architect**
 
-I help engineering teams run AI workloads in production on infrastructure they control:
-GPU and Kubernetes model serving, private or hybrid setups, reliability, and what it all
-costs per unit of useful work.
+I help engineering teams measure what each AI workload costs per successful task and
+compare the options against their quality and latency targets: a managed model API, their
+own GPUs, or a mix.
+
+**Work with me:** a [five-day AI workload cost assessment](https://vjsairam.com/assessment/)
+on one workload, ending in a written recommendation.
 
 ## Measured work
 
@@ -15,7 +18,8 @@ task sets. Results from the August 2026 runs (costs are inference-service cost p
 task, not full platform TCO):
 
 - **Classification:** the private 7B model was more accurate (94.3% vs 77.8% correct) and about
-  40 times cheaper per correct answer ($0.0000505 vs $0.00214).
+  40 times cheaper per correct answer ($0.0000505 vs $0.00214). The managed run used a 64-token
+  answer cap, and GPU cost covers only the benchmark request span.
 - **Structured extraction:** the managed premium model won on quality (99.9% vs 40.7%), so the
   quality requirement decides, not the token price.
 - **Hybrid routing** priced the blend in between: 88.9% correct at $0.00071 per correct task
@@ -29,6 +33,12 @@ task, not full platform TCO):
 ### [Terraform MCP analyzer](https://github.com/vjsairam/terraform-mcp-analyzer)
 
 Terraform upgrade analysis exposed as an MCP server, written in Go.
+
+## Open source
+
+- [KEDA](https://github.com/kedacore/keda/pulls?q=is%3Apr+author%3Avjsairam+is%3Amerged): merged
+  removals of deprecated scaler settings for the 2.22 release (GCP Pub/Sub, Huawei Cloudeye), with
+  the matching [docs changes](https://github.com/kedacore/keda-docs/pulls?q=is%3Apr+author%3Avjsairam+is%3Amerged).
 
 ## What I work on
 
