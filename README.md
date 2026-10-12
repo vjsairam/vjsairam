@@ -8,7 +8,6 @@ own GPUs, or a mix.
 
 **Work with me:** a [five-day AI workload cost assessment](https://vjsairam.com/assessment/)
 on one workload, ending in a written recommendation.
-<!-- TODO: add a LinkedIn link next to the contact line, and a profile photo in GitHub settings. -->
 
 ## Measured work
 
